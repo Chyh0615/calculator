@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://kit.fontawesome.com/5a27d45b66.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="calculator.css">
+    
+</head>
+<body>
+    <div class="calculator-grid">
+        <div id="output"></div>
+        <button class="space-two clearAll" onclick="clearScreen()">AC</button>
+        <button class="del" onclick="deleteOne()"><i class="fa-solid fa-delete-left"></i></button>
+        <button class="operation">/</i></button>
+        <button class="nums">1</button>
+        <button class="nums">2</button>
+        <button class="nums">3</button>
+        <button class="operation">*</button>
+        <button class="nums">4</button>
+        <button class="nums">5</button>
+        <button class="nums">6</button>
+        <button class="operation">+</i></button>
+        <button class="nums">7</button>
+        <button class="nums">8</button>
+        <button class="nums">9</button>
+        <button class="operation">-</i></button>
+        <button class="nums">.</button>
+        <button class="nums">0</button>
+        <button class="space-two" onclick="equalBtn()">=</button>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
